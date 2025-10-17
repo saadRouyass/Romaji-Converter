@@ -159,10 +159,11 @@ int main() {
     ht_insert(ht, "pyo", "ぴょ");
 
     printf("------------------------\n");
+    printf("Type something and click Enter:\n");
 
     while (1)
     {
-        printf("\n>> ");
+        printf("\n>>");
         fgets(paragraph, sizeof(paragraph), stdin);
 
         char* splited_paragraph = strtok(paragraph," \t\n\r,.");
